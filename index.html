@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PostNL</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -17,23 +18,27 @@
         <nav class="nav-bar">
             <img src="img/postnl.svg" alt="PostNL">
             <p>Inloggen</p>
-            <img src="img/arrowdown.svg" alt="pijl">
+            <img class="arrowdown" src="img/arrowdown.svg" alt="pijl">
             <img src="img/menu.svg" alt="menu">
         </nav>
     </header>
 
     <main>
         <section class="hero-section">
+            <div class="hero-text">
             <h1>Grenzeloos groeien met je webwinkel</h1>
             <p>Verstuur het voordelig als brievenbuspakje</p>
             <button>lees meer</button>
-            <p>Link</p>
-            <img src="img/line.svg" alt="afbeelding">
-            <img src="img/deleverytime.svg" alt="Bezorgtijd">
+            <a>Link</a>
+            </div>
+            <div class="hero-img">
+            <img class="lineimg" src="img/line.svg" alt="afbeelding">
+            <img class="timeimg" src="img/deleverytime.svg" alt="Bezorgtijd">
+            </div>
         </section>
 
         <section class="order-card">
-            <ul>
+            <ul class="order-list">
                 <li>
                     <img src="img/tracking.svg" alt="trace">
                     <p>Volg je pakket</p>
@@ -70,11 +75,11 @@
             <img src="img/searchbutton.svg" alt="zoeken">
         </section>
 
-        <section class="voorkeuren-rood">
+        <section class="voorkeuren">
             <img src="img/plant.svg" alt="afbeelding">
             <h3>Voorkeuren bezorging</h3>
             <p>Vaak op pad? bepaal zelf waar we je pakketen bezorgen</p>
-            <div>
+            <div class="link-border-voorkeuren">
                 <a>Link</a>
             </div>
         </section>
@@ -83,15 +88,15 @@
             <img src="img/building.svg" alt="afbeelding">
             <h3>Track & trace wereldwijd</h3>
             <p>Track & trace ook op de kleinste pakjes naar het buitenland. Naar wel 75 landen</p>
-            <div>
+            <div class="link-border-wereldwijd">
                 <a>Link</a>
             </div>
         </section>
 
-        <section class="Postzegel">
+        <section class="postzegel">
             <img src="img/phone.svg" alt="afbeelding">
             <p>Verstuur je brief of kaart met een Postzegelcode</p>
-            <div>
+            <div class="link-border-postzegel">
                 <a>Link</a>
             </div>
         </section>
