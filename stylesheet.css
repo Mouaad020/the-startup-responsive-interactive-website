@@ -1,0 +1,93 @@
+@layer styleguide {
+
+
+@font-face {
+    font-family: "abc-rom-bold";
+    src: url(/fonts/ABCROM-Heavy-Trial.otf) format("opentype");
+}
+ 
+@font-face {
+    font-family: "abc-rom-regular";
+    src: url(/fonts/ABCROM-Regular-Trial.otf) format("opentype");
+}
+
+
+
+
+ :root {
+    /* kleuren */
+    --background-color: #FFFFFF;
+    --background-color-secondary: #F6F5F5;
+    --textcolor-h1: #001A73;
+    --formcolor-bar:#E7E8EB;
+    --textcolor-secondary:#A1A1EF;
+    --textcolor-third: #E75204;
+    --footercolor: #F1F1F2;
+ 
+
+     /* headings*/
+    --h1-size: 46px;
+    --h2-size: 24px;
+    --h3-size: 18px;
+
+     
+
+
+ }
+ 
+body {
+    --font-family-bold: 'abc-rom-bold', sans-serif;
+    --font-family-regular: 'abc-rom-regular', sans-serif;
+}
+ 
+p {
+    font-family: var(--font-family-regular);
+    font-size: 1.125em;
+    line-height: 120%;
+}
+
+/* button */
+    .button1{
+    color: white;
+    font-weight: bold;
+    background-color: #6161FF;
+    border-radius: 5px;
+    border: solid #6161FF 10px ;
+}
+
+.button2{
+    color: white;
+    font-weight: bold;
+    background-color: #6161FF;
+    border-radius: 5px;
+    border: solid #6161FF 10px ;
+    width: 250px;
+}
+
+.button3{
+    color: #4E4EE2;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 2px;
+    border: solid #4E4EE2 2px ;
+    width: 250px;
+}
+
+/* formelementen*/
+     
+.input1{
+    border: solid lightgrey 2px;
+    border-radius: 2px;
+    width: 300px;
+    height: 27px;
+}
+
+.input2{
+    border: solid lightgrey 2px;
+    border-radius: 2px;
+    width: 150px;
+    height: 27px;
+}
+
+
+}
