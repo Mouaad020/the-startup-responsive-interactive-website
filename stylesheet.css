@@ -18,17 +18,26 @@
     /* kleuren */
     --background-color: #FFFFFF;
     --background-color-secondary: #F6F5F5;
-    --textcolor-h1: #001A73;
+    --primary-color: #4E4EE2;
+    --secondary-color: #001A73;
     --formcolor-bar:#E7E8EB;
-    --textcolor-secondary:#A1A1EF;
-    --textcolor-third: #E75204;
+    --primary-textcolor:#A1A1EF;
+    --secondary-textcolor: #E75204;
     --footercolor: #F1F1F2;
+    --color-voorkeuren: #D83D00;
+    --color-voorkeuren-link:#C23400;
+    --color-trace:#6161FF;
+    --color-postzegel-link: #001252;
+
  
 
      /* headings*/
     --h1-size: 46px;
-    --h2-size: 24px;
-    --h3-size: 18px;
+    --headingS: 18px;
+    --headingxl: 32px;
+    --headingL: 25px;
+    --headingM: 21px;
+
 
      
 
