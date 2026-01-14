@@ -104,7 +104,8 @@
         background-color: white;
         border-radius: 2px;
         border: solid #4E4EE2 2px;
-        width: 250px;
+        width: 100%;
+        height: 40px;
     }
 
     /* formelementen*/
