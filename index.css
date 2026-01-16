@@ -190,10 +190,10 @@ form label {
 
 .shown{
     display: block;
-    animation: disneySlide 1.2s ease-in-out forwards;
+    animation: Slide 1.2s ease-in-out forwards;
 }
 
-@keyframes disneySlide {
+@keyframes Slide {
     0% {
         transform: translateX(-100%);
     }
