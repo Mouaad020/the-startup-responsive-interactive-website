@@ -7,6 +7,7 @@
     <title>PostNL</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="index.css">
+     <script src="./index.js" defer></script>
 </head>
 
 <body>
@@ -41,15 +42,20 @@
         <section class="order-card">
             <ul class="order-list">
                 <li>
+                    
                     <img class="tracking" src="img/tracking.svg" alt="trace">
-                    <p class="tracking-p">Volg je pakket</p>
+                    <span class="tracking-p">Volg je pakket</span>
+                    
+                    <!-- <p class="tracking-p">Volg je pakket</p> -->
                 </li>
                 <li>
                     <img src="img/sendlogo.svg" alt="versturen">
                     <p class="send-p">versturen</p>
                 </li>
-                <li>
+                <li class="locatie">
+                    <a>
                     <img src="img/location.svg" alt="locatie">
+                    </a>
                     <p class="locatie-p">locaties</p>
                 </li>
                 <li>
@@ -57,7 +63,7 @@
                     <p class="postcode-p">Postcodes</p>
                 </li>
             </ul>
-            <form>
+            <form class="form-volgen">
                 <h2>Volg je pakket</h2>
                 <label for="barcode-niet-thuiscode">Barcode of niet-thuiscode</label>
                 <input class="input1" type="text" id="barcode-niet-thuiscode" placeholder="Barcode (3S of KG)">
@@ -65,6 +71,13 @@
                 <input class="input1" type="text" id="land-van-de-ontvanger" placeholder="Nederland">
                 <label for="postcode">Postcode</label>
                 <input class="input2" type="text" id="postcode" placeholder="Postcode">
+                <button class="button-zoek">Zoeken</button>
+            </form>
+
+            <form class="form-pakketpunt">
+                <h2>PostNL-punten</h2>
+                <label for="zoek-postnl-punten">Zoek PostNL-punten</label>
+                <input class="input1" type="text" id="zoek-postnl-punten" placeholder="Zoek op plaats, straat of postcode">
                 <button class="button-zoek">Zoeken</button>
             </form>
 
