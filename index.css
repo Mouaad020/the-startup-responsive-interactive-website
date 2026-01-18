@@ -129,7 +129,17 @@
     cursor: pointer;
 }
 
-.order-list li:first-child {
+.li-track {
+    border-bottom: 3px solid var(--color-trace);
+    background-color: var(--neutral-color-white);
+}
+
+.li-track.hidden{
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.locatie.show{
     border-bottom: 3px solid var(--color-trace);
     background-color: var(--neutral-color-white);
 }
@@ -149,7 +159,7 @@
 .send-p,
 .locatie-p,
 .postcode-p {
-    font-size: 0.75rem;
+    font-size: 16px;
     color: var(--primary-textcolor);
     text-align: center;
     font-family: var(--font-family-hanken-regular);
@@ -269,7 +279,8 @@ form label {
 .voorkeuren p {
     font-family: var(--font-family-hanken-regular);
     line-height: var(--line-height-160);
-    padding: 0.5em 1.25em 1em 1.25em;
+    padding: 0.5em 1.25em 1em 1.6em;
+    font-size: 16px;
 }
 
 .link-border-voorkeuren {
@@ -284,9 +295,6 @@ form label {
     font-weight: 600;
     font-family: var(--font-family-hanken-medium);
 }
-
-
-
 
 
 
@@ -315,9 +323,9 @@ form label {
 
 .wereldwijd p {
     font-family: var(--font-family-hanken-regular);
-    font-size: 1rem;
+    font-size: 16px;
     line-height: var(--line-height-160);
-    padding: 0.5em 1.25em 1em 1.25em;
+    padding: 0.5em 1.25em 1em 1.6em;
 }
 
 .link-border-wereldwijd {
@@ -345,6 +353,12 @@ form label {
     overflow: hidden;
 }
 
+.postzegel h3 {
+    font-family: var(--font-family-abc-bold);
+    font-size: var(--headingM);
+    padding: 0.5em 1.25em 0 1.25em;
+}
+
 .postzegel img {
     width: 100px;
     padding: 1em 1.25em 0 1.25em;
@@ -352,9 +366,9 @@ form label {
 
 .postzegel p {
     font-family: var(--font-family-hanken-regular);
-    font-size: 1rem;
+    font-size: 16px;
     line-height: var(--line-height-160);
-    padding: 0.5em 1.25em 1em 1.25em;
+    padding: 0.5em 1.50em 1em 1.6em;
 }
 
 .link-border-postzegel {
@@ -395,6 +409,7 @@ form label {
     color: #333;
     line-height: var(--line-height-160);
     margin-bottom: 1.5rem;
+    font-size: 16px;
 }
 
 .fotokaart div {
@@ -442,6 +457,7 @@ form label {
     color: #333;
     line-height: var(--line-height-160);
     margin-bottom: 1.5rem;
+    font-size: 16px;
 }
 
 .post-versturen {
@@ -460,7 +476,7 @@ form label {
 .post-versturen h4 {
     font-family: var(--font-family-abc-bold);
     font-size: var(--headingM);
-    color: var(--secondary-color);
+    font-weight: bold;
     margin-bottom: 1rem;
 }
 
@@ -469,6 +485,7 @@ form label {
     color: #333;
     line-height: var(--line-height-160);
     margin-bottom: 1rem;
+    font-size: 16px;
 }
 
 .post-versturen div {
@@ -514,6 +531,7 @@ form label {
     color: #333;
     line-height: var(--line-height-160);
     margin-bottom: 1rem;
+    font-size: 16px;
 }
 
 .bezorging div {
@@ -583,3 +601,4 @@ footer nav section ul li img {
     font-size: 0.875rem;
     color: #666;
 }
+
