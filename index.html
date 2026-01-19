@@ -7,19 +7,21 @@
     <title>PostNL</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="index.css">
-     <script src="./index.js" defer></script>
+    <script src="./index.js" defer></script>
 </head>
 
 <body>
+
     <header>
-        <div class="top-bar">
-            <p class="consument">Consument</p>
-            <p class="zakelijk">Zakelijk</p>
+        <nav class="top-bar">
+            <a class="consument">Consument</a>
+            <a class="zakelijk">Zakelijk</a>
             <img src="img/shoppingcart.svg" alt="winkelwagen">
-        </div>
+        </nav>
+        
         <nav class="nav-bar">
             <img src="img/postnl.svg" alt="PostNL">
-            <p>Inloggen</p>
+            <a>Inloggen</a>
             <img class="arrowdown" src="img/arrowdown.svg" alt="pijl">
             <img src="img/menu.svg" alt="menu">
         </nav>
@@ -33,60 +35,67 @@
                 <button class="button1">lees meer</button>
                 <a>Link</a>
             </div>
+
             <div class="hero-img">
                 <img class="lineimg" src="img/line.svg" alt="afbeelding">
                 <img class="timeimg" src="img/deleverytime.svg" alt="Bezorgtijd">
             </div>
         </section>
 
-        <section class="order-card">
-            <ul class="order-list">
-                <li class="li-track">
-                    <a>
+
+        <ul class="order-list">
+            <li class="li-track">
+                <a>
                     <img class="tracking" src="img/tracking.svg" alt="trace">
-                    </a>
-                    <p class="tracking-p">Volg je pakket</p>
-                </li>
-                <li>
+                </a>
+                <p class="tracking-p">Volg je pakket</p>
+            </li>
+            <li>
+                <a>
                     <img src="img/sendlogo.svg" alt="versturen">
-                    <p class="send-p">versturen</p>
-                </li>
-                <li class="locatie">
-                    <a>
+                </a>
+                <p class="send-p">versturen</p>
+            </li>
+            <li class="locatie">
+                <a>
                     <img src="img/location.svg" alt="locatie">
-                    </a>
-                    <p class="locatie-p">locaties</p>
-                </li>
-                <li>
+                </a>
+                <p class="locatie-p">locaties</p>
+            </li>
+            <li>
+                <a>
                     <img src="img/postcode.svg" alt="postcode">
-                    <p class="postcode-p">Postcodes</p>
-                </li>
-            </ul>
-            <form class="form-volgen">
-                <h2>Volg je pakket</h2>
-                <label for="barcode-niet-thuiscode">Barcode of niet-thuiscode</label>
-                <input class="input1" type="text" id="barcode-niet-thuiscode" placeholder="Barcode (3S of KG)">
-                <label for="land-van-de-ontvanger">Land van de ontvanger</label>
-                <input class="input1" type="text" id="land-van-de-ontvanger" placeholder="Nederland">
-                <label for="postcode">Postcode</label>
-                <input class="input2" type="text" id="postcode" placeholder="Postcode">
-                <button class="button-zoek">Zoeken</button>
-            </form>
+                </a>
+                <p class="postcode-p">Postcodes</p>
+            </li>
+        </ul>
 
-            <form class="form-pakketpunt">
-                <h2>PostNL-punten</h2>
-                <label for="zoek-postnl-punten">Zoek PostNL-punten</label>
-                <input class="input1" type="text" id="zoek-postnl-punten" placeholder="Zoek op plaats, straat of postcode">
-                <button class="button-zoek">Zoeken</button>
-            </form>
 
-        </section>
+
+        <form class="form-volgen">
+            <h2>Volg je pakket</h2>
+            <label for="barcode-niet-thuiscode">Barcode of niet-thuiscode</label>
+            <input class="input1" type="text" id="barcode-niet-thuiscode" placeholder="Barcode (3S of KG)">
+            <label for="land-van-de-ontvanger">Land van de ontvanger</label>
+            <input class="input1" type="text" id="land-van-de-ontvanger" placeholder="Nederland">
+            <label for="postcode">Postcode</label>
+            <input class="input2" type="text" id="postcode" placeholder="Postcode">
+            <button class="button-zoek">Zoeken</button>
+        </form>
+
+        <form class="form-pakketpunt">
+            <h2>PostNL-punten</h2>
+            <label for="zoek-postnl-punten">Zoek PostNL-punten</label>
+            <input class="input1" type="text" id="zoek-postnl-punten" placeholder="Zoek op plaats, straat of postcode">
+            <button class="button-zoek">Zoeken</button>
+        </form>
+
 
         <section class="search-bar">
             <h3>Ik ben opzoek naar...</h3>
             <input type="text" placeholder="Wat zoek je?">
             <button class="searchbutton">
-            <img class="searchimg" src="img/searchbutton.svg" alt="zoeken">
+                <img class="searchimg" src="img/searchbutton.svg" alt="zoeken">
             </button>
         </section>
 
@@ -94,31 +103,25 @@
             <img src="img/plant.svg" alt="afbeelding" width="150px">
             <h3>Voorkeuren bezorging</h3>
             <p>Vaak op pad? bepaal zelf waar we je pakketen bezorgen</p>
-            <div class="link-border-voorkeuren">
-                <a>Link</a>
-            </div>
+            <a class="link-border-voorkeuren">Link</a>
         </section>
 
         <section class="wereldwijd">
             <img src="img/building.svg" alt="afbeelding" width="100px">
             <h3>Track & trace wereldwijd</h3>
             <p>Track & trace ook op de kleinste pakjes naar het buitenland. Naar wel 75 landen</p>
-            <div class="link-border-wereldwijd">
-                <a>Link</a>
-            </div>
+            <a class="link-border-wereldwijd">Link</a>
         </section>
 
         <section class="postzegel">
             <img src="img/phone.svg" alt="afbeelding" width="100px">
             <h3>Nu 1 postzegel nodig?</h3>
             <p>Verstuur je brief of kaart met een Postzegelcode</p>
-            <div class="link-border-postzegel">
-                <a>Link</a>
-            </div>
+            <a class="link-border-postzegel">Link</a>
         </section>
 
         <section class="fotokaart">
-            <img class="fotokaartimg" src="img/photocard.svg" alt="afbeelding">
+            <img class="fotokaartimg" src="img/photocard.svg" alt="">
             <h2>Met de PostNL-app heb je alles in de hand</h2>
             <p>Regel al je PostNL-zaken zoals jij dat wil. Maak en verstuur een fotokaart, koop een postzegelcode of
                 bekijk welke post en pakketten er naar je onderweg zijn. Miljoenen tevreden gebruikers gingen je
@@ -126,97 +129,89 @@
             <div>
                 <button class="button2">Fotokaart versturen</button>
                 <a>Link</a>
-                <img src="img/arrowright.svg" alt="pijl">
+                <img src="img/arrowright.svg" alt="">
             </div>
         </section>
 
         <section class="pakketje">
-            <img src="img/package.svg" alt="afbeelding">
+            <img src="img/package.svg" alt="">
             <h3>Voordelen van een persoonlijk account</h3>
             <p>Voordelen van een persoonlijk account kunt u hier vinden</p>
             <button class="button3">Maak een account aan</button>
         </section>
 
         <section class="post-versturen">
-            <img src="img/sendpackage.svg" alt="afbeelding">
+            <img src="img/sendpackage.svg" alt="">
             <h4>Veel post versturen</h4>
             <p>Gemakkelijk en voordelig grote hoeveelheden post tegelijk versturen.</p>
             <div>
                 <a>Lees over partijenpost</a>
-                <img src="img/arrowright.svg" alt="pijl">
+                <img src="img/arrowright.svg" alt="">
             </div>
         </section>
 
         <section class="bezorging">
-            <img src="img/van-postnl.svg" alt="afbeelding">
+            <img src="img/van-postnl.svg" alt="">
             <h4>Altijd de juiste logistieke oplossingen</h4>
             <p>Als je op zoek bent naar groot of gekoeld transport. Of installatie en montage van artikelen.</p>
             <div>
                 <a>Bekijk de mogelijkheden</a>
-                <img src="img/arrowright.svg" alt="pijl">
+                <img src="img/arrowright.svg" alt="">
             </div>
         </section>
-
 
     </main>
 
     <footer>
         <nav>
-            <section>
-                <ul>
-                    <li>
-                        <h2>Versturen</h2>
-                        <img src="img/arrowright.svg" alt="pijl">
-                    </li>
-                    <li>
-                        <h2>Ontvangen</h2>
-                        <img src="img/arrowright.svg" alt="pijl">
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <ul>
-                    <li>
-                        <h2>Zakelijke oplossingen</h2>
-                        <img src="img/arrowright.svg" alt="pijl">
-                    </li>
-                    <li>
-                        <h2>Webshop</h2>
-                        <img src="img/arrowright.svg" alt="pijl">
-                    </li>
+            <ul>
+                <li>
+                    <h2>Versturen</h2>
+                    <img src="img/arrowright.svg" alt="pijl">
+                </li>
+                <li>
+                    <h2>Ontvangen</h2>
+                    <img src="img/arrowright.svg" alt="pijl">
+                </li>
+            </ul>
 
-                </ul>
-            </section>
+            <ul>
+                <li>
+                    <h2>Zakelijke oplossingen</h2>
+                    <img src="img/arrowright.svg" alt="pijl">
+                </li>
+                <li>
+                    <h2>Webshop</h2>
+                    <img src="img/arrowright.svg" alt="pijl">
+                </li>
 
-            <section>
-                <ul>
-                    <li>
-                        <h2>Direct regelen</h2>
-                        <img src="img/arrowright.svg" alt="pijl">
-                    </li>
+            </ul>
 
-                    <li>
-                        <h2>PostNL-app</h2>
-                        <img src="img/arrowright.svg" alt="pijl">
-                    </li>
-                </ul>
-            </section>
+            <ul>
+                <li>
+                    <h2>Direct regelen</h2>
+                    <img src="img/arrowright.svg" alt="pijl">
+                </li>
 
-            <section>
-                <ul>
-                    <li>
-                        <h2>Hulp</h2>
-                        <img src="img/arrowright.svg" alt="pijl">
-                    </li>
+                <li>
+                    <h2>PostNL-app</h2>
+                    <img src="img/arrowright.svg" alt="pijl">
+                </li>
+            </ul>
 
-                    <li>
-                        <h2>Over PostNL</h2>
-                        <img src="img/arrowright.svg" alt="pijl">
-                    </li>
-                </ul>
-            </section>
+            <ul>
+                <li>
+                    <h2>Hulp</h2>
+                    <img src="img/arrowright.svg" alt="pijl">
+                </li>
+
+                <li>
+                    <h2>Over PostNL</h2>
+                    <img src="img/arrowright.svg" alt="pijl">
+                </li>
+            </ul>
+
         </nav>
-
 
         <section class="footer-bottom">
             <img src="img/postnl.svg" alt="Postnl-logo">
@@ -229,11 +224,8 @@
                     <li>Algemene voorwaarden</li>
                 </ul>
             </nav>
-        </section>
-
 
     </footer>
-
 
 </body>
 
