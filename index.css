@@ -269,7 +269,7 @@ form {
         padding: 1em 15em 0 1.25em;
     }
 
-    h3 {
+    h2 {
         font-family: var(--font-family-abc-bold);
         font-size: var(--headingM);
         padding: 0.5em 1.25em 0 1.25em;
@@ -309,7 +309,7 @@ form {
         padding: 1em 1.25em 0 1.25em;
     }
 
-    h3 {
+    h2 {
         font-family: var(--font-family-abc-bold);
         font-size: var(--headingM);
         padding: 0.5em 1.25em 0 1.25em;
@@ -344,7 +344,7 @@ form {
     background-color: var(--secondary-color);
     overflow: hidden;
 
-    h3 {
+    h2 {
         font-family: var(--font-family-abc-bold);
         font-size: var(--headingM);
         padding: 0.5em 1.25em 0 1.25em;
@@ -433,7 +433,7 @@ form {
         margin-bottom: 1rem;
     }
 
-    h3 {
+    h2 {
         font-family: var(--font-family-abc-bold);
         font-size: var(--headingL);
         color: var(--secondary-textcolor);
@@ -462,7 +462,7 @@ form {
         margin-bottom: 1rem;
     }
 
-    h4 {
+    h2 {
         font-family: var(--font-family-abc-bold);
         font-size: var(--headingM);
         font-weight: bold;
@@ -510,7 +510,7 @@ form {
         margin-bottom: 1rem;
     }
 
-    h4 {
+    h2 {
         font-family: var(--font-family-abc-bold);
         font-size: var(--headingM);
         font-weight: bold;
@@ -596,5 +596,39 @@ footer {
     }
 }
 
+/* Sections starten onzichtbaar */
+.preference, .worldwide, .stamp {
+  opacity: 0;
+  transform: translateX(-100px);
+}
 
+/* Scroll-driven animations */
+.preference {
+  animation: slideFromLeft linear forwards;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.worldwide {
+  animation: slideFromLeft linear forwards;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.stamp {
+  animation: slideFromLeft linear forwards;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
