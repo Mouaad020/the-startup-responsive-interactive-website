@@ -24,11 +24,11 @@
     }
 }
 
-.consument {
+.consumer {
     color: var(--secondary-textcolor);
 }
 
-.zakelijk {
+.professional {
     color: var(--primary-color);
 }
 
@@ -104,7 +104,7 @@
 }
 
 /* Order List */
-.order-lijst {
+.order-list {
     list-style: none;
     display: flex;
     background-color: var(--footercolor);
@@ -149,7 +149,7 @@
 }
 
 .send-p,
-.locatie-p,
+.location-p,
 .postcode-p {
     font-size: 16px;
     color: var(--primary-textcolor);
@@ -157,7 +157,7 @@
     font-family: var(--font-family-hanken-regular);
 }
 
-/* Forms */
+/* Forms */ 
 form {
     display: flex;
     flex-direction: column;
@@ -181,7 +181,7 @@ form {
 }
 
 
-.locatie-show {
+.location-show {
     border-bottom: 3px solid var(--color-trace);
     background-color: var(--neutral-color-white);
 }
@@ -191,12 +191,12 @@ form {
     display: none;
 }
 
-.form-pakketpunt {
+.form-parcelpoint {
     display: none;
 }
 
 .shown {
-    display: block;
+    display: flex;
     animation: Slide 1.2s ease-in-out forwards;
 }
 
@@ -209,7 +209,7 @@ form {
     }
 }
 
-.button-zoek {
+.button-search {
     color: var(--neutral-color-white);
     font-weight: bold;
     background-color: #6161FF;
@@ -219,11 +219,15 @@ form {
 }
 
 /* Search Bar */
-.zoek-bar {
+
+.search-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.search-bar {
     padding: 2rem 1rem;
-    background-color: var(n);
-    position: relative;
-    left: 4em;
+    
+    
 
     h3 {
         font-family: var(--font-family-abc-bold);
@@ -250,8 +254,8 @@ form {
     background: none;
 }
 
-/* Voorkeuren Section */
-.voorkeuren {
+/* Preference */
+.preference {
     display: flex;
     flex-direction: column;
     color: var(--neutral-color-white);
@@ -279,7 +283,7 @@ form {
     }
 }
 
-.link-border-voorkeuren {
+.link-border-preference {
     margin-top: auto;
     padding: 1.5em;
     background-color: var(--color-voorkeuren-link);
@@ -289,8 +293,8 @@ form {
     font-family: var(--font-family-hanken-medium);
 }
 
-/* Wereldwijd */
-.wereldwijd {
+/* Worldwide */
+.worldwide {
     display: flex;
     flex-direction: column;
     min-height: 350px;
@@ -319,7 +323,7 @@ form {
     }
 }
 
-.link-border-wereldwijd {
+.link-border-worldwide {
     margin-top: auto;
     padding: 1.5em;
     background-color: var(--primary-color);
@@ -329,8 +333,8 @@ form {
     font-family: var(--font-family-hanken-medium);
 }
 
-/* Postzegel*/
-.postzegel {
+/* Stamp*/
+.stamp {
     display: flex;
     flex-direction: column;
     min-height: 350px;
@@ -359,7 +363,7 @@ form {
     }
 }
 
-.link-border-postzegel {
+.link-border-stamp {
     margin-top: auto;
     padding: 1.5em;
     background-color: var(--color-postzegel-link);
@@ -369,8 +373,8 @@ form {
     font-family: var(--font-family-hanken-medium);
 }
 
-/* Fotokaart*/
-.fotokaart {
+/* Photocard*/
+.photocard {
     background: var(--background-color-secondary);
     padding: 2rem 1rem;
     margin: 1rem;
@@ -404,19 +408,20 @@ form {
         font-family: var(--font-family-hanken-medium);
     }
 
-    img:last-child {
+    .img-arrow {
         width: 20px;
+        position: relative;
     }
 }
 
-.fotokaartimg {
+.photoimg {
     width: 100%;
     max-width: 400px;
     margin-bottom: 1rem;
 }
 
-/* Pakketje */
-.pakketje {
+/* Package */
+.package {
     background-color: var(--background-color-secondary);
     padding: 2rem 1rem;
     margin: 1rem;
@@ -444,8 +449,8 @@ form {
     }
 }
 
-/* Post Versturen Section */
-.post-versturen {
+/* send mail */
+.send-mail {
     background-color: var(--background-color-secondary);
     padding: 2rem 1rem;
     margin: 1rem;
@@ -485,13 +490,15 @@ form {
         font-family: var(--font-family-hanken-medium);
     }
 
-    img:last-child {
+    .img-arrow {
         width: 20px;
+        position: relative;
+        top: 0.5em;
     }
 }
 
-/* Bezorging Section */
-.bezorging {
+/* Delivery */
+.delivery {
     background-color: var(--background-color-secondary);
     padding: 2rem 1rem;
     margin: 1rem;
@@ -531,8 +538,10 @@ form {
         font-family: var(--font-family-hanken-medium);
     }
 
-    img:last-child {
+    .img-arrow{
         width: 20px;
+        position: relative;
+        top: 0.5em;
     }
 }
 

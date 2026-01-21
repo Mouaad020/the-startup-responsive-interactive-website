@@ -1,32 +1,32 @@
-const send = document.querySelector('.locatie')
+const send = document.querySelector('.location')
 const hidecontent = document.querySelector('.hidden')
 const showcontent = document.querySelector('.shown')
-const showtab = document.querySelector('.locatie-show')
+const showtab = document.querySelector('.location-show')
 const track = document.querySelector('.li-track')
-const volgenform = document.querySelector('.form-volgen')
-const pakketform = document.querySelector('.form-pakketpunt')
+const followform = document.querySelector('.form-follow')
+const packageform = document.querySelector('.form-parcelpoint')
 
 
 send.addEventListener('click', function() {
-    pakketform.classList.add('shown')
-    pakketform.classList.remove('hidden')
-    volgenform.classList.add('hidden')
-    volgenform.classList.remove('shown')
+    packageform.classList.add('shown')
+    packageform.classList.remove('hidden')
+    followform.classList.add('hidden')
+    followform.classList.remove('shown')
     track.classList.add('hidden')
-    track.classList.remove('locatie-show')
-    send.classList.add('locatie-show')
+    track.classList.remove('location-show')
+    send.classList.add('location-show')
     send.classList.remove('hidden')
 });
 
 
 
 track.addEventListener('click', function() {
-    volgenform.classList.add('shown')
-    volgenform.classList.remove('hidden')
-    pakketform.classList.add('hidden')
-    pakketform.classList.remove('shown')
-    track.classList.add('locatie-show')
+    followform.classList.add('shown')
+    followform.classList.remove('hidden')
+    packageform.classList.add('hidden')
+    packageform.classList.remove('shown')
+    track.classList.add('location-show')
     track.classList.remove('hidden')
     send.classList.add('hidden')
-    send.classList.remove('locatie-show')
+    send.classList.remove('location-show')
 });
