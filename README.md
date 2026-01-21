@@ -81,13 +81,11 @@ In mijn JS gebruik ik voornamelijk Engels en voor sommige classes gebruik Nederl
 
 ~~~const send = document.querySelector('.locatie')
 const hidecontent = document.querySelector('.hidden')
-const showcontent = document.querySelector('.show')
+const showcontent = document.querySelector('.shown')
+const showtab = document.querySelector('.locatie-show')
 const track = document.querySelector('.li-track')
 const volgenform = document.querySelector('.form-volgen')
 const pakketform = document.querySelector('.form-pakketpunt')
-
-//als je op locatie klikt verdwijnt de standaard form//
-
 
 
 send.addEventListener('click', function() {
@@ -96,8 +94,8 @@ send.addEventListener('click', function() {
     volgenform.classList.add('hidden')
     volgenform.classList.remove('shown')
     track.classList.add('hidden')
-    track.classList.remove('show')
-    send.classList.add('show')
+    track.classList.remove('locatie-show')
+    send.classList.add('locatie-show')
     send.classList.remove('hidden')
 });
 ~~~
