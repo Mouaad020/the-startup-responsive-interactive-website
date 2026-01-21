@@ -11,6 +11,7 @@
     padding: 1rem;
     gap: 1rem;
     border-bottom: 1px solid #eee;
+    background-color: var(--background-color-secondary);
 
     p {
         font-size: 0.9rem;
@@ -68,6 +69,8 @@
 
     p {
         margin-bottom: 1.5rem;
+        font-family: var(--font-family-hanken-medium);
+        font-size: var(--headingS);
     }
 
     a {
@@ -101,7 +104,7 @@
 }
 
 /* Order List */
-.order-list {
+.order-lijst {
     list-style: none;
     display: flex;
     background-color: var(--footercolor);
@@ -136,10 +139,7 @@
     background-color: transparent;
 }
 
-.locatie.show {
-    border-bottom: 3px solid var(--color-trace);
-    background-color: var(--neutral-color-white);
-}
+
 
 .tracking-p {
     color: var(--secondary-textcolor);
@@ -180,6 +180,13 @@ form {
     }
 }
 
+
+.locatie-show {
+    border-bottom: 3px solid var(--color-trace);
+    background-color: var(--neutral-color-white);
+}
+
+
 .hidden {
     display: none;
 }
@@ -212,9 +219,9 @@ form {
 }
 
 /* Search Bar */
-.search-bar {
+.zoek-bar {
     padding: 2rem 1rem;
-    background-color: var(--neutral-color-white);
+    background-color: var(n);
     position: relative;
     left: 4em;
 
@@ -282,7 +289,7 @@ form {
     font-family: var(--font-family-hanken-medium);
 }
 
-/* Wereldwijd Section */
+/* Wereldwijd */
 .wereldwijd {
     display: flex;
     flex-direction: column;
@@ -322,7 +329,7 @@ form {
     font-family: var(--font-family-hanken-medium);
 }
 
-/* Postzegel Section */
+/* Postzegel*/
 .postzegel {
     display: flex;
     flex-direction: column;
@@ -358,11 +365,11 @@ form {
     background-color: var(--color-postzegel-link);
     color: var(--neutral-color-white);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     font-family: var(--font-family-hanken-medium);
 }
 
-/* Fotokaart Section */
+/* Fotokaart*/
 .fotokaart {
     background: var(--background-color-secondary);
     padding: 2rem 1rem;
@@ -408,7 +415,7 @@ form {
     margin-bottom: 1rem;
 }
 
-/* Pakketje Section */
+/* Pakketje */
 .pakketje {
     background-color: var(--background-color-secondary);
     padding: 2rem 1rem;
@@ -520,7 +527,7 @@ form {
     a {
         color: var(--primary-color);
         text-decoration: none;
-        font-weight: 600;
+        font-weight: bold;
         font-family: var(--font-family-hanken-medium);
     }
 
@@ -579,3 +586,6 @@ footer {
         }
     }
 }
+
+
+

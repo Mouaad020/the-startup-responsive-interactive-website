@@ -1,13 +1,10 @@
-//selecteer de class//
 const send = document.querySelector('.locatie')
 const hidecontent = document.querySelector('.hidden')
-const showcontent = document.querySelector('.show')
+const showcontent = document.querySelector('.shown')
+const showtab = document.querySelector('.locatie-show')
 const track = document.querySelector('.li-track')
 const volgenform = document.querySelector('.form-volgen')
 const pakketform = document.querySelector('.form-pakketpunt')
-
-//als je op locatie klikt verdwijnt de standaard form//
-
 
 
 send.addEventListener('click', function() {
@@ -16,8 +13,8 @@ send.addEventListener('click', function() {
     volgenform.classList.add('hidden')
     volgenform.classList.remove('shown')
     track.classList.add('hidden')
-    track.classList.remove('show')
-    send.classList.add('show')
+    track.classList.remove('locatie-show')
+    send.classList.add('locatie-show')
     send.classList.remove('hidden')
 });
 
@@ -28,8 +25,8 @@ track.addEventListener('click', function() {
     volgenform.classList.remove('hidden')
     pakketform.classList.add('hidden')
     pakketform.classList.remove('shown')
-    track.classList.add('show')
+    track.classList.add('locatie-show')
     track.classList.remove('hidden')
     send.classList.add('hidden')
-    send.classList.remove('show')
+    send.classList.remove('locatie-show')
 });
