@@ -83,7 +83,7 @@ Ik heb feedback ontvangen van mijn klasgenoot Yassine dat ik beter Engels kan ge
 
 Ik heb feedback verwerkt die ik had ontvangen.
 
-
+https://github.com/Mouaad020/the-startup-responsive-interactive-website/blob/main/index.html
 
 
 In mijn JS gebruik ik voornamelijk Engels en voor sommige classes gebruik Nederlands, omdat die in mijn HTML staan waar ik dus Nederlandse naamgevingen gebruik.
