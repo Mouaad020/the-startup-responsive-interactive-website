@@ -77,6 +77,15 @@ In mijn HTML en CSS gebruik ik voornamelijk Nederlands, omdat ik een site moet m
 }
 ~~~
 
+Ik heb feedback ontvangen van mijn klasgenoot Yassine dat ik beter Engels kan gebruiken voor de classnamen.
+
+<img width="1279" height="697" alt="Schermafbeelding 2026-01-21 130814" src="https://github.com/user-attachments/assets/2b57dcea-b338-469e-9c00-30d566762157" />
+
+Ik heb feedback verwerkt die ik had ontvangen.
+
+https://github.com/Mouaad020/the-startup-responsive-interactive-website/blob/main/index.html
+
+
 In mijn JS gebruik ik voornamelijk Engels en voor sommige classes gebruik Nederlands, omdat die in mijn HTML staan waar ik dus Nederlandse naamgevingen gebruik.
 
 ~~~const send = document.querySelector('.locatie')
