@@ -2,11 +2,11 @@ Ontwerp en maak een responsive website voor een startup.
 
 De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
 
-# Titel
-The-startup-responsive-interactive-website
+# The-startup-responsive-interactive-website
 
 ## Beschrijving
-Ademruimte en inspringen
+
+# Ademruimte en inspringen
 
 Als ik werk aan me HTML hou ik me aan verschillende regels voor ademruimte en inspringen. Bij het inspringen gebruik ik 4 tabs, zodat alles mooi overzichtelijk blijft en in combinatie met genoeg ademruimte is het goed te zien wat gescheiden is van elkaar. Voor de ademruimte gebruik 1 spatie.
 <!-- Voeg een mooie poster visual toe 📸 -->
@@ -33,7 +33,7 @@ https://mouaad020.github.io/the-startup-responsive-interactive-website/
 
 
 
-Volgorde en nesten van CSS selectors
+# Volgorde en nesten van CSS selectors
 
 Als ik werk aan mijn CSS dan nest ik de selectors die bij een bepaalde selector horen en zo probeer ik mijn CSS overzichtelijk te houden.
 
@@ -63,7 +63,7 @@ Link naar mijn CSS:
 https://github.com/Mouaad020/the-startup-responsive-interactive-website/blob/main/index.css
 
 
-Naamgeving
+# Naamgeving
 
 In mijn HTML en CSS gebruik ik voornamelijk Nederlands, omdat ik een site moet maken voor PostNL en de figma bestaat uit Nederlandse benamingen dus het is voor mij makkelijker om Nederlands aan te houden.
 
@@ -125,7 +125,7 @@ Link naar mijn github:
 https://mouaad020.github.io/the-startup-responsive-interactive-website/
 
 
-Responsive:
+# Responsive:
 
 Ik heb ook een deel van de pagina responsive gemaakt de breakpoint zit op 700px.
 
@@ -141,6 +141,31 @@ https://github.com/user-attachments/assets/1cba08f9-1b22-4908-8d12-cb7d86c813e9
 Link naar mijn CSS:
 
 https://github.com/Mouaad020/the-startup-responsive-interactive-website/blob/main/index.css
+
+# Interactie
+
+ik heb een wireflow gemaakt voor de interactie. Op de wireflow staat beschreven hoe de interactie in ze'n werking gaat en op welke pagina het gebeurt. 
+
+Als je op de element klikt dan krijg je een animatie te zien:
+
+![Image](https://github.com/user-attachments/assets/692d8336-83d5-4b7a-b4ab-8837fa7e221c)
+
+De animatie slide inL:
+
+![Image](https://github.com/user-attachments/assets/4032bf7e-cc60-4c17-a43f-dbbcb7fb3be7)
+
+De locatie form is ingeladen:
+
+![Image](https://github.com/user-attachments/assets/86ad86f7-ee17-4607-a393-c09e418caac4)
+
+In deze schermopname zie je wanneer ik op de locatie element klik dat er dan een locatie form tevoorschijn komt en als ik weer op volg je pakket dan komt er een andere form.
+
+
+https://github.com/user-attachments/assets/5637d178-d6ce-4147-86f2-3a88f19e683a
+
+
+
+
 
 ## Licentie
 
