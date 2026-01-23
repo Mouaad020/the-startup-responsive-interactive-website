@@ -11,7 +11,8 @@ Ademruimte en inspringen
 Als ik werk aan me HTML hou ik me aan verschillende regels voor ademruimte en inspringen. Bij het inspringen gebruik ik 4 tabs, zodat alles mooi overzichtelijk blijft en in combinatie met genoeg ademruimte is het goed te zien wat gescheiden is van elkaar. Voor de ademruimte gebruik 1 spatie.
 <!-- Voeg een mooie poster visual toe 📸 -->
 Voorbeeld HTML:
-~~~  <header>
+~~~HTML
+<header>
         <nav class="top-bar">
             <a class="consument">Consument</a>
             <a class="zakelijk">Zakelijk</a>
@@ -36,7 +37,8 @@ Volgorde en nesten van CSS selectors
 
 Als ik werk aan mijn CSS dan nest ik de selectors die bij een bepaalde selector horen en zo probeer ik mijn CSS overzichtelijk te houden.
 
-~~~.top-bar {
+~~~CSS
+.top-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,13 +67,17 @@ Naamgeving
 
 In mijn HTML en CSS gebruik ik voornamelijk Nederlands, omdat ik een site moet maken voor PostNL en de figma bestaat uit Nederlandse benamingen dus het is voor mij makkelijker om Nederlands aan te houden.
 
-~~~ <form class="form-pakketpunt">
+~~~HTML
+<form class="form-pakketpunt">
             <h2>PostNL-punten</h2>
             <label for="zoek-postnl-punten">Zoek PostNL-punten</label>
             <input class="input1" type="text" id="zoek-postnl-punten" placeholder="Zoek op plaats, straat of postcode">
             <button class="button-zoek">Zoeken</button>
         </form>
-~~~.button-zoek {
+~~~
+
+~~~CSS
+.button-zoek {
     color: var(--neutral-color-white);
     font-weight: bold;
     background-color: #6161FF;
@@ -93,7 +99,8 @@ https://github.com/Mouaad020/the-startup-responsive-interactive-website/blob/mai
 
 In mijn JS gebruik ik voornamelijk Engels en voor sommige classes gebruik Nederlands, omdat die in mijn HTML staan waar ik dus Nederlandse naamgevingen gebruik.
 
-~~~const send = document.querySelector('.locatie')
+~~~JS
+const send = document.querySelector('.locatie')
 const hidecontent = document.querySelector('.hidden')
 const showcontent = document.querySelector('.shown')
 const showtab = document.querySelector('.locatie-show')
@@ -122,7 +129,8 @@ Responsive:
 
 Ik heb ook een deel van de pagina responsive gemaakt de breakpoint zit op 700px.
 
-~~~ @media(min-width:700px){
+~~~CSS
+ @media(min-width:700px){
         width: 65%;
         margin: auto;
     }
