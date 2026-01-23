@@ -113,6 +113,20 @@ Link naar mijn github:
 https://mouaad020.github.io/the-startup-responsive-interactive-website/
 
 
+Responsive:
+
+Ik heb ook een deel van de pagina responsive gemaakt de breakpoint zit op 700px.
+
+~~~ @media(min-width:700px){
+        width: 65%;
+        margin: auto;
+    }
+~~~
+
+https://github.com/user-attachments/assets/1cba08f9-1b22-4908-8d12-cb7d86c813e9
+
+
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
