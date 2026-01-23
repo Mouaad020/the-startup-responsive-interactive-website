@@ -56,6 +56,10 @@ Als ik werk aan mijn CSS dan nest ik de selectors die bij een bepaalde selector 
 }
 ~~~
 
+Link naar mijn CSS:
+
+https://github.com/Mouaad020/the-startup-responsive-interactive-website/blob/main/index.css
+
 
 Naamgeving
 
@@ -76,6 +80,7 @@ In mijn HTML en CSS gebruik ik voornamelijk Nederlands, omdat ik een site moet m
     width: 305px;
 }
 ~~~
+
 
 Ik heb feedback ontvangen van mijn klasgenoot Yassine dat ik beter Engels kan gebruiken voor de classnamen.
 
@@ -125,7 +130,9 @@ Ik heb ook een deel van de pagina responsive gemaakt de breakpoint zit op 700px.
 
 https://github.com/user-attachments/assets/1cba08f9-1b22-4908-8d12-cb7d86c813e9
 
+Link naar mijn CSS:
 
+https://github.com/Mouaad020/the-startup-responsive-interactive-website/blob/main/index.css
 
 ## Licentie
 
